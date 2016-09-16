@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#008000"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_marginBottom="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/logorentakar"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versão Alpha - 1.0.1"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicativo desenvolvido na disciplina de POO - Prof. Leanderson André"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        android:textSize="16dp"
+        android:layout_marginBottom="20dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvedores do app:"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caio Delmonego"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gustavo Ruske"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="José Sardagna Jr"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fale conosco"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GITHUB"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#008000">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastro de Carros"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marca do carro"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modelo"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero de Portas"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numero de passageiros"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABS"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Banco de Couro"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potencia do motor"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Airbag"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:fontFamily="sans-serif"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enviar"
+                android:id="@+id/btnAcessarEnviar"
+                />
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</LinearLayout>

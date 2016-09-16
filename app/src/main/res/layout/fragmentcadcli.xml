@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#008000">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastro de Clientes"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:layout_marginBottom="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome completo"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginBottom="5dp"
+
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CPF"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RG"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endereço"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Idade"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="16dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="                                                                                                                 "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif"
+                android:textColorLink="#ffffff"
+                android:backgroundTint="#ffffff"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enviar"
+                android:id="@+id/btnAcessarLogin"
+                />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

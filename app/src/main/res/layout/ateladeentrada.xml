@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008000"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="100dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/logorentakar"
+            android:contentDescription="@string/teste" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/carros"
+        android:layout_gravity="center"
+        android:contentDescription="@string/teste"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/btnAcessar"
+        android:background="@drawable/buttonv2"
+        android:layout_marginTop="35dp"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/teste"
+        >
+    </ImageButton>
+
+</LinearLayout>
